@@ -20,7 +20,8 @@ namespace Project
         private void OK_Click(object sender, EventArgs e)
         {
             String check = "";
-            if (LoginForm.user.m_str_password != Old_Password.Text) check += "Sai mật khẩu cũ!\n";
+            if (LoginForm.user.M_str_password != Old_Password.Text) check += "Sai mật khẩu cũ!\n";
+            if (!User.CheckPassword(New_Password.Text)) check += "Password phải có ít nhất 8 kí tự, có số và có kí tự viết hoa!\n";
             if (New_Password.Text != New_Pasword2.Text) check += "Sai mật khẩu nhập lại!";
             if(check!="")
             {
@@ -28,7 +29,7 @@ namespace Project
                 return;
             }
             //Nếu mật khẩu thỏa mãn thì mới đến bước dưới
-            LoginForm.user.m_str_password = New_Password.Text;
+            LoginForm.user.M_str_password = New_Password.Text;
         }
     }
 }

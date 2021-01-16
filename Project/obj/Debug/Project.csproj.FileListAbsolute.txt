@@ -32,7 +32,6 @@ D:\Project\Project\obj\Debug\Project.csprojAssemblyReference.cache
 D:\Project\Project\obj\Debug\Project.AddBook.resources
 D:\Project\Project\obj\Debug\Project.AdmRegister.resources
 D:\Project\Project\obj\Debug\Project.ChangePassword.resources
-D:\Project\Project\obj\Debug\Project.Form2.resources
 D:\Project\Project\obj\Debug\Project.LibrarianActivity.resources
 D:\Project\Project\obj\Debug\Project.StartPage.resources
 D:\Project\Project\obj\Debug\Project.UserActivity.resources

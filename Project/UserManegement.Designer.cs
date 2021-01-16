@@ -224,7 +224,7 @@
             this.Undo.Enabled = false;
             this.Undo.Location = new System.Drawing.Point(420, 330);
             this.Undo.Name = "Undo";
-            this.Undo.Size = new System.Drawing.Size(53, 43);
+            this.Undo.Size = new System.Drawing.Size(56, 43);
             this.Undo.TabIndex = 42;
             this.Undo.Text = "Undo";
             this.Undo.UseVisualStyleBackColor = true;

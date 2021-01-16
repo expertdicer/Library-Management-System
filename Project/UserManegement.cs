@@ -67,7 +67,7 @@ namespace Project
             user.Email = Email.Text;
             user.DateofBirth = DateofBirth.Value;
             user.PhoneNum = PhoneNum.Text;
-            Undo.Enabled = false;
+            Undo.Enabled = true;
         }
 
         private void Delete_Click(object sender, EventArgs e)

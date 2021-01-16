@@ -53,9 +53,24 @@ namespace Project
         #region Data Structure
         #endregion
         #region Members
-        public string m_str_account;
-        public string m_str_password;
-        public string m_str_home_address;
+        private string m_str_account;
+        private string m_str_password;
+        private string m_str_home_address;
+        public string M_str_account 
+        {
+            get { return m_str_account; }
+            set { m_str_account = value; }
+        }
+        public string M_str_password
+        {
+            get { return m_str_password; }
+            set { m_str_password = value; }
+        }
+        public string M_str_home_address
+        {
+            get { return m_str_home_address; }
+            set { m_str_home_address = value; }
+        }
         #endregion
         #region Private Methods
         #endregion

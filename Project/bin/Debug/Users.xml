@@ -3,13 +3,26 @@
   <User>
     <Username>Đỗ Ngọc Hưng</Username>
     <ID>20183755</ID>
-    <Email>ilovemuffin008@gmail.com</Email>
-    <DateofBirth>2000-01-28T14:17:37</DateofBirth>
+    <Email>hung@gmail.com</Email>
+    <DateofBirth>2000-01-28T09:33:41</DateofBirth>
     <PhoneNum>0963926614</PhoneNum>
     <Acc>
-      <no_borrowed_books>
-        <string>MP00001</string>
-      </no_borrowed_books>
+      <no_borrowed_books />
+      <no_reserved_books />
+      <no_returned_books>
+        <string>MP00002</string>
+      </no_returned_books>
+      <no_lost_books />
+    </Acc>
+  </User>
+  <User>
+    <Username>Hoàng Tuấn Tài</Username>
+    <ID>20185401</ID>
+    <Email>hoangtai@gmail.com</Email>
+    <DateofBirth>2000-01-15T15:05:21</DateofBirth>
+    <PhoneNum>0981872487</PhoneNum>
+    <Acc>
+      <no_borrowed_books />
       <no_reserved_books />
       <no_returned_books />
       <no_lost_books />

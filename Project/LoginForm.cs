@@ -24,16 +24,15 @@ namespace Project
         {
             string username = UserID.Text;
             string password = Password.Text;
-            if (database.librarians.Any(item => item.m_str_account == username && item.m_str_password == password))
+            if (database.librarians.Any(item => item.M_str_account == username && item.M_str_password == password))
             {
-                LoginForm.user = database.librarians.Find(item => item.m_str_account == username);
+                LoginForm.user = database.librarians.Find(item => item.M_str_account == username);
                 open_start_page();
             }
-        }
-        public static bool IsValidLogin(string user, string password)
-        {
-            XDocument doc = XDocument.Load("users.xml");
-            return false;
+            else
+            {
+                MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu");
+            }
         }
         private void open_start_page()
         {

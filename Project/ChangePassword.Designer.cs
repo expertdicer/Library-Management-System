@@ -51,6 +51,7 @@
             // 
             this.Old_Password.Location = new System.Drawing.Point(327, 155);
             this.Old_Password.Name = "Old_Password";
+            this.Old_Password.PasswordChar = '*';
             this.Old_Password.Size = new System.Drawing.Size(261, 22);
             this.Old_Password.TabIndex = 1;
             // 
@@ -58,6 +59,7 @@
             // 
             this.New_Password.Location = new System.Drawing.Point(327, 213);
             this.New_Password.Name = "New_Password";
+            this.New_Password.PasswordChar = '*';
             this.New_Password.Size = new System.Drawing.Size(261, 22);
             this.New_Password.TabIndex = 3;
             // 
@@ -75,6 +77,7 @@
             // 
             this.New_Pasword2.Location = new System.Drawing.Point(327, 271);
             this.New_Pasword2.Name = "New_Pasword2";
+            this.New_Pasword2.PasswordChar = '*';
             this.New_Pasword2.Size = new System.Drawing.Size(261, 22);
             this.New_Pasword2.TabIndex = 5;
             // 

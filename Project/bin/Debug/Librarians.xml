@@ -1,13 +1,40 @@
 <?xml version="1.0"?>
-<ArrayOfLibrarian xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Librarian>
+<ArrayOfCLibrarian_001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CLibrarian_001>
+    <Username>Hồ Bá Nguyên</Username>
+    <ID>20183962</ID>
+    <Email>nguyen@gmail.com</Email>
+    <DateofBirth>2000-02-01T09:27:44</DateofBirth>
+    <PhoneNum>0976851700</PhoneNum>
+  </CLibrarian_001>
+  <CLibrarian_001>
     <Username>Đỗ Ngọc Hưng</Username>
-    <ID>LI00001</ID>
+    <ID>20183755</ID>
     <Email>ilovemuffin008@gmail.com</Email>
-    <DateofBirth>2000-01-28T00:00:00</DateofBirth>
+    <DateofBirth>2000-01-28T09:59:55</DateofBirth>
     <PhoneNum>0963926614</PhoneNum>
-    <Account>Hungdo</Account>
-    <Password>Hungdo123</Password>
-    <Home_Address>Bac Giang</Home_Address>
-  </Librarian>
-</ArrayOfLibrarian>
+    <M_str_account>hungdo</M_str_account>
+    <M_str_password>Hungdo123</M_str_password>
+    <M_str_home_address>Bắc Giang</M_str_home_address>
+  </CLibrarian_001>
+  <CLibrarian_001>
+    <Username>Hồ Bá Nguyên</Username>
+    <ID>20183962</ID>
+    <Email>nguyen123@gmail.com</Email>
+    <DateofBirth>2000-02-10T10:33:48</DateofBirth>
+    <PhoneNum>0976851700</PhoneNum>
+    <M_str_account>nguyenho</M_str_account>
+    <M_str_password>Nguyen123</M_str_password>
+    <M_str_home_address>Nghệ An</M_str_home_address>
+  </CLibrarian_001>
+  <CLibrarian_001>
+    <Username>Hoàng Tuấn Tài</Username>
+    <ID>20185401</ID>
+    <Email>hoangtai@gmail.com</Email>
+    <DateofBirth>2000-01-15T15:03:51</DateofBirth>
+    <PhoneNum>0981872487</PhoneNum>
+    <M_str_account>hoangtai123</M_str_account>
+    <M_str_password>Hoangtai123</M_str_password>
+    <M_str_home_address>Ninh Bình</M_str_home_address>
+  </CLibrarian_001>
+</ArrayOfCLibrarian_001>

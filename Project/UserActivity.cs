@@ -24,8 +24,17 @@ namespace Project
 
         private void Show_borrowing_books_Click(object sender, EventArgs e)
         {
-            List<ABook> list_borrowed_books = database.listBook.FindAll(item => user.Acc.no_borrowed_books.Contains(item.BookID));
-            Get_list_of_Books(list_borrowed_books);
+            try
+            {
+                List<ABook> list_borrowed_books = database.listBook.FindAll(item => user.Acc.no_borrowed_books.Contains(item.BookID));
+                Get_list_of_Books(list_borrowed_books);
+            }
+            catch
+            {
+                MessageBox.Show("Không có sách đang mượn", "Thông Báo", MessageBoxButtons.OK);
+            }
+
+            
         }
 
         private void Search_book_Click(object sender, EventArgs e)
@@ -36,14 +45,21 @@ namespace Project
 
         private void Check_Click(object sender, EventArgs e)
         {
-            if(database.users.Any(item=>item.ID==ID.Text))
+            try
             {
-                Show_borrowing_books.Enabled = true;
-                Borrow_book.Enabled = true;
-                return_Book.Enabled = true;
-                Show_returned_books.Enabled = true;
-                user = database.users.Find(item => item.ID == ID.Text);
-            }    
+                if (database.users.Any(item => item.ID == ID.Text))
+                {
+                    Show_borrowing_books.Enabled = true;
+                    Borrow_book.Enabled = true;
+                    return_Book.Enabled = true;
+                    Show_returned_books.Enabled = true;
+                    user = database.users.Find(item => item.ID == ID.Text);
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Không có user trong Database!", "Thông Báo", MessageBoxButtons.OK);
+            }
         }
 
         private void Borrow_book_Click(object sender, EventArgs e)
@@ -68,8 +84,15 @@ namespace Project
 
         private void Show_returned_books_Click(object sender, EventArgs e)
         {
-            List<ABook> list_returned_books = database.listBook.FindAll(item => user.Acc.no_returned_books.Contains(item.BookID));
-            Get_list_of_Books(list_returned_books);
+            try
+            {
+                List<ABook> list_returned_books = database.listBook.FindAll(item => user.Acc.no_returned_books.Contains(item.BookID));
+                Get_list_of_Books(list_returned_books);
+            }
+            catch
+            {
+                MessageBox.Show("Không có sách đã trả", "Thông Báo", MessageBoxButtons.OK);
+            }
         }
 
         private void Get_list_of_Books(List<ABook> list_of_books)
@@ -86,6 +109,11 @@ namespace Project
                 row.Cells[5].Value = book.BookID;
                 dataGridView1.Rows.Add(row);
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

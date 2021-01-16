@@ -1,87 +1,15 @@
 <?xml version="1.0"?>
 <ArrayOfABook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ABook>
-    <BookID>MI00001</BookID>
-    <Status>good</Status>
-    <Availability>true</Availability>
-    <BookType>
-      <Title>Giáo trình giải tích 1</Title>
-      <Publisher>Bách Khoa</Publisher>
-      <Author>Tô Văn Ban</Author>
-      <ISBN>9786040037961</ISBN>
-      <Year>0</Year>
-    </BookType>
-  </ABook>
-  <ABook>
-    <BookID>MI00002</BookID>
-    <Status>good</Status>
-    <Availability>true</Availability>
-    <BookType>
-      <Title>Giáo trình giải tích 1</Title>
-      <Publisher>Bách Khoa</Publisher>
-      <Author>Tô Văn Ban</Author>
-      <ISBN>9786040037961</ISBN>
-      <Year>0</Year>
-    </BookType>
-  </ABook>
-  <ABook>
-    <BookID>MI00003</BookID>
-    <Status>good</Status>
-    <Availability>true</Availability>
-    <BookType>
-      <Title>Giáo trình giải tích 1</Title>
-      <Publisher>Bách Khoa</Publisher>
-      <Author>Tô Văn Ban</Author>
-      <ISBN>9786040037961</ISBN>
-      <Year>0</Year>
-    </BookType>
-  </ABook>
-  <ABook>
-    <BookID>MI00004</BookID>
-    <Status>good</Status>
-    <Availability>true</Availability>
-    <BookType>
-      <Title>Giáo trình giải tích 1</Title>
-      <Publisher>Bách Khoa</Publisher>
-      <Author>Tô Văn Ban</Author>
-      <ISBN>9786040037961</ISBN>
-      <Year>0</Year>
-    </BookType>
-  </ABook>
-  <ABook>
-    <BookID>MI00005</BookID>
-    <Status>good</Status>
-    <Availability>true</Availability>
-    <BookType>
-      <Title>Giáo trình giải tích 1</Title>
-      <Publisher>Bách Khoa</Publisher>
-      <Author>Tô Văn Ban</Author>
-      <ISBN>9786040037961</ISBN>
-      <Year>0</Year>
-    </BookType>
-  </ABook>
-  <ABook>
-    <BookID>MI00005</BookID>
-    <Status>good</Status>
-    <Availability>true</Availability>
-    <BookType>
-      <Title>Giáo trình giải tích 1</Title>
-      <Publisher>Bách Khoa</Publisher>
-      <Author>Tô Văn Ban</Author>
-      <ISBN>9786040037961</ISBN>
-      <Year>0</Year>
-    </BookType>
-  </ABook>
-  <ABook>
     <BookID>MP00001</BookID>
     <Status>good</Status>
-    <Availability>false</Availability>
+    <Availability>true</Availability>
     <BookType>
       <Title>21 Lessons for the 21st Century</Title>
       <Publisher>Spiegel &amp; Grau</Publisher>
-      <Author>Yuval Noah Harari</Author>
+      <Author>Yuval Noah Harari2</Author>
       <ISBN>9781984801494</ISBN>
-      <Year>0</Year>
+      <Year>2014</Year>
     </BookType>
   </ABook>
   <ABook>
@@ -91,9 +19,9 @@
     <BookType>
       <Title>21 Lessons for the 21st Century</Title>
       <Publisher>Spiegel &amp; Grau</Publisher>
-      <Author>Yuval Noah Harari</Author>
+      <Author>Yuval Noah Harari2</Author>
       <ISBN>9781984801494</ISBN>
-      <Year>0</Year>
+      <Year>2014</Year>
     </BookType>
   </ABook>
   <ABook>
@@ -103,9 +31,9 @@
     <BookType>
       <Title>21 Lessons for the 21st Century</Title>
       <Publisher>Spiegel &amp; Grau</Publisher>
-      <Author>Yuval Noah Harari</Author>
+      <Author>Yuval Noah Harari2</Author>
       <ISBN>9781984801494</ISBN>
-      <Year>0</Year>
+      <Year>2014</Year>
     </BookType>
   </ABook>
   <ABook>
@@ -115,9 +43,9 @@
     <BookType>
       <Title>21 Lessons for the 21st Century</Title>
       <Publisher>Spiegel &amp; Grau</Publisher>
-      <Author>Yuval Noah Harari</Author>
+      <Author>Yuval Noah Harari2</Author>
       <ISBN>9781984801494</ISBN>
-      <Year>0</Year>
+      <Year>2014</Year>
     </BookType>
   </ABook>
   <ABook>
@@ -127,69 +55,9 @@
     <BookType>
       <Title>21 Lessons for the 21st Century</Title>
       <Publisher>Spiegel &amp; Grau</Publisher>
-      <Author>Yuval Noah Harari</Author>
+      <Author>Yuval Noah Harari2</Author>
       <ISBN>9781984801494</ISBN>
-      <Year>0</Year>
-    </BookType>
-  </ABook>
-  <ABook>
-    <BookID>dsdsd</BookID>
-    <Status>medium</Status>
-    <Availability>true</Availability>
-    <BookType>
-      <Title>sd</Title>
-      <Publisher />
-      <Author />
-      <ISBN />
-      <Year>2000</Year>
-    </BookType>
-  </ABook>
-  <ABook>
-    <BookID>dsdsd</BookID>
-    <Status>medium</Status>
-    <Availability>true</Availability>
-    <BookType>
-      <Title>sd</Title>
-      <Publisher />
-      <Author />
-      <ISBN />
-      <Year>2000</Year>
-    </BookType>
-  </ABook>
-  <ABook>
-    <BookID>dsdsd</BookID>
-    <Status>medium</Status>
-    <Availability>true</Availability>
-    <BookType>
-      <Title>sd</Title>
-      <Publisher />
-      <Author />
-      <ISBN />
-      <Year>2000</Year>
-    </BookType>
-  </ABook>
-  <ABook>
-    <BookID>dsdsd</BookID>
-    <Status>medium</Status>
-    <Availability>true</Availability>
-    <BookType>
-      <Title>sd</Title>
-      <Publisher />
-      <Author />
-      <ISBN />
-      <Year>2000</Year>
-    </BookType>
-  </ABook>
-  <ABook>
-    <BookID>dsdsd</BookID>
-    <Status>medium</Status>
-    <Availability>true</Availability>
-    <BookType>
-      <Title>sd</Title>
-      <Publisher />
-      <Author />
-      <ISBN />
-      <Year>2000</Year>
+      <Year>2014</Year>
     </BookType>
   </ABook>
 </ArrayOfABook>

@@ -30,9 +30,6 @@ namespace Project
         {
             string Check = "";
             if(database.CheckAccount(IDname.Text)) Check+="ID đã tồn tại!\n";
-            if (!CLibrarian_001.check_Email(Email.Text)) Check += "Email không phù hợp!";
-            if (!User.CheckDateofBirth(DateofBirth.Value)) Check += "Không có sinh viên nào sinh sau 2003,làm ơn nhập lại!\n";
-            if (!User.CheckPhoneNumber(PhoneNum.Text)) Check += "Số điện thoại không phù hợp!\n";
             Facade check = new Facade(Email.Text, PhoneNum.Text, DateofBirth.Value);
             Check += check.Check();
             if (Check!="")

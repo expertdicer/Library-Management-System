@@ -49,19 +49,5 @@ namespace Project
             info.AddValue("Availability", _Availability);
             info.AddValue("BookType", _BookType);
         }
-        #region Định nghĩa các phương thức
-        private static void Show_duedt()
-        {
-
-        }
-        private status Reservation_status()
-        {
-            return this.Status;
-        }
-        private static void Book_request()
-        {
-
-        }
-        #endregion
     }
 }

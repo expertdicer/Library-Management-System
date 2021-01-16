@@ -41,7 +41,7 @@ namespace Project
         }
         void Show();
     }
-    public class Book : IBook, IComparable
+    public class Book : IBook
     {
 
         #region Định nghĩa dữ liệu
@@ -125,40 +125,5 @@ namespace Project
             } while (str.Length > 0);
         }
         #endregion
-        private class sortauthorhelper : IComparer
-        {
-            int IComparer.Compare(object x, object y)
-            {
-                Book b1 = (Book)x;
-                Book b2 = (Book)y;
-                return String.Compare(b1.author, b2.author);
-            }
-        }
-        private class sortYearhelper : IComparer
-        {
-            int IComparer.Compare(object x, object y)
-            {
-                Book b1 = (Book)x;
-                Book b2 = (Book)y;
-                if (b1.Year > b2.Year)
-                    return 1;
-                if (b1.Year < b2.Year)
-                    return -1;
-                else return 0;
-            }
-        }
-        int IComparable.CompareTo(object obj)
-        {
-            Book c = (Book)obj;
-            return string.Compare(this.title, c.title);
-        }
-        public static IComparer sortYear()
-        {
-            return (IComparer)new sortYearhelper();
-        }
-        public static IComparer sortauthor()
-        {
-            return (IComparer)new sortauthorhelper();
-        }
     }
 }
